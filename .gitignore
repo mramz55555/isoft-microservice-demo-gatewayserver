@@ -1,0 +1,38 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# IntelliJ IDEA module files
+*.iml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/*.tmp
+.idea/.gitignore
+.idea/jsLibraryMappings.xml
+
+# Compiled Java classes
+*.class
+
+# Maven
+target/
+**/target/
+
+# Spring Boot packaging and build files
+**/build/
+**/out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Dependency cache
+**/.mvn/
+**/.gradle/
+!**/gradle-wrapper.jar
+**/build/
+**/out/
+
+# Generated files
+*.war
+*.ear
+*.jar
